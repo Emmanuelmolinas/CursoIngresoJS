@@ -16,9 +16,9 @@ function mostrarAumento()
 
     valorPorcentaje=10;
 
-    aumento=1+(valorPorcentaje/100);
+    aumento=(sueldo*valorPorcentaje/100);
 
-    resultado=sueldo*aumento;
+    resultado=sueldo+aumento;
     document.getElementById("resultado").value=resultado
 
   
